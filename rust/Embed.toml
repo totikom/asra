@@ -12,7 +12,7 @@ serial = "0669FF525157878367012130"
 
 [default.flashing]
 # Whether or not the target should be flashed.
-#enabled = true
+enabled = true
 # Whether or not the target should be halted after reset.
 # DEPRECATED, moved to reset section
 #halt_afterwards = false
@@ -27,7 +27,7 @@ serial = "0669FF525157878367012130"
 [default.reset]
 # Whether or not the target should be reset.
 # When flashing is enabled as well, the target will be reset after flashing.
-#enabled = true
+enabled = true
 # Whether or not the target should be halted after reset.
 #halt_afterwards = false
 
@@ -73,7 +73,7 @@ channels = [
 # Whether to save rtt history buffer on exit.
 log_enabled = true
 # Where to save rtt history buffer relative to manifest path.
-log_path = "../target/discovery_logs"
+log_path = "target/discovery_logs"
 
 [default.gdb]
 # Whether or not a GDB server should be opened after flashing.
